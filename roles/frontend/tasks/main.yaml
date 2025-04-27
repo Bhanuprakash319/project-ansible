@@ -10,7 +10,7 @@
     enabled: yes
 
 - name: run app-pre-req
-  ansible.bulitin_import_role:
+  ansible.builtin_import_role:
    name: common
    tasks_from: app-pre-req
 
