@@ -1,5 +1,7 @@
 - name: configure backend server
   become: yes
+  vars_files:
+  - credentials.yaml
   hosts: backend
   roles:
   - backend
