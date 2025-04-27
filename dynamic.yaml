@@ -11,6 +11,8 @@
      state: latest
 
   - name: start and enable software
+    tags:
+    - service
     ansible.builtin.service:
      name: nginx
      state: started
